@@ -1,14 +1,17 @@
 const Mysql = require('mysql-pro');
 
 const db = new Mysql({
-  host:'localhost',
-  port:3306,
-  user:'root',
-  password:'saber',
-  dataBase:'school'
-  
+  mysql:{
+    host:'localhost',
+    port:3306,
+    user:'root',
+    password:'saber',
+    database:'blog'
+  }
+
 });
-db.excute = async sql =>{
+
+db.execute = async sql =>{
   await db.startTransaction();
   let res;
   if(typeof sql =='string'){
@@ -19,5 +22,6 @@ db.excute = async sql =>{
     })
   }
   await db.stopTransaction();
+  return res;
 }
 module.exports = db
