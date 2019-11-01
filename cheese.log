@@ -1,0 +1,12 @@
+[2019-11-01T16:19:51.522] [ERROR] cheese - Cheese is too ripe!
+[2019-11-01T16:27:10.791] [ERROR] cheese - ReferenceError: aa is not defined
+    at router.get (G:\study\electron\koa_server\routers\index.js:5:3)
+    at dispatch (G:\study\electron\koa_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\study\electron\koa_server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\study\electron\koa_server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\study\electron\koa_server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\study\electron\koa_server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (G:\study\electron\koa_server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (G:\study\electron\koa_server\node_modules\koa-compose\index.js:42:32)
+    at session (G:\study\electron\koa_server\node_modules\koa-session\index.js:41:13)
+    at dispatch (G:\study\electron\koa_server\node_modules\koa-compose\index.js:42:32)
