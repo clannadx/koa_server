@@ -11,7 +11,7 @@
     "koa-router": "^7.4.0",
     "koa-session": "^5.11.0",
     "koa-static-cache": "^5.1.2",
-    "log4js": "^5.3.0",
+    "log4js": "^6.4.0",
     "mysql-pro": "^1.0.1"
   },
   "scripts": {
